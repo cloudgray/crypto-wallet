@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: ${SPRING_DATASOURCE_URL}
+    username: ${SPRING_DATASOURCE_USERNAME}
+    password: ${SPRING_DATASOURCE_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+web3:
+  blockchains:
+    - networkName: ethereum_goerli
+      providerUrl: ${WEB3_PROVIDER_URL}
+      chainId: 5
+      symbol: ETH
+      explorerUrl: https://goerli.etherscan.io/tx/

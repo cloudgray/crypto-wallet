@@ -1,0 +1,9 @@
+{
+	"properties": [
+		{
+			"name": "web3.blockchains",
+			"type": "java.util.List<com.example.wallet.blockchain.BlockchainProperties$BlockchainInfo>",
+			"description": "A description of the blockchains to connect to"
+		}
+	]
+}
